@@ -7,38 +7,14 @@ body{
 	font-family: 'Play', sans-serif;
 	margin: 0;
 }
-/* Design Menu Start*/
 
-/*nav{
-	display: block;
-	width: 40%;
-	margin: 0 auto 30px;
-	background: #FFFFFF
+div{
+	text-align: center;
 }
-.one a{
-	text-decoration: none;
-	transition: .5s linear;
-
+p{
+	text-align: center;
 }
 
-.one ul{
-	list-style: none;
-	margin: 0 auto;
-	padding: 1em 0;
-}
-
-.one li{
-	display: inline;
-	padding-right: 5%;
-}
-
-.one a:hover{
-	background: #CACACB;
-}
-
-i{
-	margin-right: 50px;
-}*/
 ul {
   list-style: none; 
   margin: 0 auto;
