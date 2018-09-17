@@ -56,3 +56,8 @@ nav.skills {
 .one a:hover {background: #ADC0CE}
 
 /* Design Menu End*/
+
+/* Pictures */
+img{
+  width: 15%;
+}
