@@ -32,10 +32,6 @@ nav {
   display: block;
   width: 444px;
   margin: 0 auto 30px;
-
-nav.skills {
-
-}
   
 }
 .one ul {
@@ -57,8 +53,27 @@ nav.skills {
 
 /* Design Menu End*/
 
-/* Pictures */
-.html5logo{
-  width: 15%;
-  height: 15%;
+/* Pictures in future */
+
+/*Table Start*/
+table{
+  width: 100%;
 }
+td, th {
+  border-width: 1px;
+  border-color: solid #333;
+  padding: 3px;
+}
+
+thead, tfoot {
+  background-color: #F0F0F0;
+}
+
+tbody {
+  background-color: #FFFFFF;
+}
+
+tbody:hover {
+  background-color: #F5E0CD;
+}
+/*Table Finish*/
