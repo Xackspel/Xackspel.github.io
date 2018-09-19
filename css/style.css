@@ -32,8 +32,11 @@ i {
 nav {
   display: block;
   width: 444px;
-  margin: 0 auto 30px;
-  
+  margin: 0 auto 30px; 
+}
+
+h4{
+  padding-left: 10px;
 }
 .one ul {
   background: #f2f2f2;

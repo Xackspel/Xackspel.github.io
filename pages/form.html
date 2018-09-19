@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Personal home webpage Xackspel">
+	<meta name="keywords" content="xackspel, website xackspel">
+	<meta name="robots" content="index, follow">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+
+	<title>Form</title>
+</head>
+<body>
+
+	<!--Live reload script start-->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<!--Live reload script end-->
+
+	<!--Menu Start-->
+	<div>
+		<nav class="one">
+		<ul>
+			<li><a href="../index.html"><i class="fa fa-home fa-fw"></i>Home</a></li>
+			<li><a href="../pages/whoIam.html">About me</a></li>
+			<li><a href="../pages/skills.html">Skills</a></li>
+			<li><a href="../pages/samples.html">Samples</a></li>
+			<li><a href="../pages/contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	</div>
+	<!--Menu End-->
+
+	<div>
+		<h1>Form</h1>
+	</div>
+	
+	<hr>
+	<p>Learnign forms in HTML5 </p>
+	<hr>
+
+	<form action="" enctype="">
+		<p>
+			<input type="login" name="Login" placeholder="Enter Login">
+			<input type="password" name="Pass" placeholder="Enter Password">
+			<input type="submit" name="Send">
+		</p>
+	</form>
+
+	<!--Open Form in Frame Start-->
+	<div>
+		<iframe name="frame_name">	
+	</iframe>
+	<form action="" enctype="" target="frame_name">
+			<p>
+				<input type="text" name="text" placeholder="Enter Text">
+				
+				<input type="submit" name="Send">
+			</p>
+		</form>
+	</div>
+	<!--Open Form in Frame Finish-->
+	<div>
+		<form id="form_id">
+			
+		</form>
+		<br>
+		<input type="Login" name="Login" placeholder=" Enter Login" form="form_id">
+		<input type="Pass" name="Pass" placeholder="Enter Password" form="form_id">
+		<input type="submit" name="Send" value="Send">
+	</div>
+	<footer>
+		<p>Thank you for visiting my homepage. <br>If you have any questions you can ask me at any time.<br>Ukraine 2018</p>
+	</footer>
+</body>
+</html>
