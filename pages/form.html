@@ -61,12 +61,54 @@
 	<!--Open Form in Frame Finish-->
 	<div>
 		<form id="form_id">
-			
+		
 		</form>
 		<br>
 		<input type="Login" name="Login" placeholder=" Enter Login" form="form_id">
 		<input type="Pass" name="Pass" placeholder="Enter Password" form="form_id">
 		<input type="submit" name="Send" value="Send">
+	</div>
+
+	<div>
+		<p>Stroke Form</p>
+		<input type="text" name="Input_Text" maxlength="5" placeholder="+380XX-XXX-XX-XX" s>
+	</div>
+	<hr>
+	<div>
+		<p>Using datalist in forms</p>
+		<!--Data list of countries Start -->
+		<datalist id="Countries">
+			<option value="Ukraine">Ukraine</option>
+			<option value="United Kingdom">United Kingdom</option>
+			<option value="Germany">Germany</option>
+			<option value="Italy">Italy</option>
+			<option value="France">France</option>
+			<option value="Spain">Spain</option>
+			<option value="Poland">Poland</option>
+			<option value="Belarus"></option>
+		</datalist>
+		<!--Data list of countries Finish -->
+
+		<!--Data list of city Start -->
+		<datalist id="Cities">
+			<option value="Kyiv">Kyiv</option>
+			<option value="London">London</option>
+			<option value="Berlin">Berlin</option>
+			<option value="Rome">Rome</option>
+			<option value="Paris">Paris</option>
+			<option value="Madrid">Madrid</option>
+			<option value="Warsaw">Warsaw</option>
+			<option value="Minsk">Minsk</option>
+		</datalist>
+		<!--Data list of city Start -->
+
+		<!--Form with Data list Start -->
+		<form>
+			<input type="" name="Countries" list="Countries" placeholder="Select Country">
+			<input type="" name="Cities" list="Cities" placeholder="Select City">
+			<input type="submit" value="Confirm">
+		</form>
+		<!--Form with Data list Finish -->
 	</div>
 	<footer>
 		<p>Thank you for visiting my homepage. <br>If you have any questions you can ask me at any time.<br>Ukraine 2018</p>
