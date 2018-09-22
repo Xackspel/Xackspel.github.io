@@ -10,7 +10,8 @@ body{
 
 div{
 	text-align: center;
-  align-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 p{
@@ -24,6 +25,7 @@ ul {
 
 a {
   text-decoration: none;
+  -webkit-transition: .5s linear;
   transition: .5s linear;
 }
 i {
@@ -38,6 +40,10 @@ nav {
 h4{
   padding-left: 10px;
 }
+
+/* h5{
+  
+} */
 .one ul {
   background: #f2f2f2;
   overflow: hidden;
