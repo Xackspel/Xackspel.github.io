@@ -87,3 +87,33 @@ tbody:hover {
   background-color: #F5E0CD;
 }
 /*Table Finish*/
+
+/* Something Beautiful 1 Start */
+#sb1{
+  background-color: #E3EEF3;
+}
+#sb1_1{
+  background-color: #ffffff;
+  width: 490px;
+  height: 340px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 25px;
+}
+#sb1_img img{
+  width: 250px;
+  height: 200px;
+}
+#sb1_img h1{
+  color: #00D86B;
+}
+#sb1_img p{
+  color: #B1B1B2;
+}
+#sb1_img button{
+  border-radius: 10px;
+  background-color: #00D86B;
+  color: #FFFFFF;
+  padding: 10px;
+  border: none;
+}
