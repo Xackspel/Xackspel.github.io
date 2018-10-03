@@ -26,15 +26,16 @@ h4 {
   padding-left: 10px;
 }
 
+
+/*********** New Index Design Start ***********/
+
+/*********** New Index Design End ***********/
+
 /********** Design Menu Start **********/
 .mainMenu {
   list-style: none;
   padding: 0;
   margin: 40px;
-  opacity: .5;
-}
-.mainMenu:hover {
-  opacity: 1;
 }
 .mainMenu li {
   overflow: hidden;
