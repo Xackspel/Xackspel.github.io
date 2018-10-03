@@ -26,45 +26,27 @@ h4 {
   padding-left: 10px;
 }
 
-
 /*********** New Index Design Start ***********/
-
-/*********** New Index Design End ***********/
-
-/********** Design Menu Start **********/
-.mainMenu {
-  list-style: none;
-  padding: 0;
-  margin: 40px;
+.main_menu{
+  margin-top: 20px;
 }
-.mainMenu li {
-  overflow: hidden;
-}
-.mainMenu li a {
-  display: block;
-  width: 100px;
-  height: 40px;
-  line-height: 40px;
+div.main_menu div{
   background: #bbb;
+  display: inline;
   margin: 1px;
-  color: #fff;
-  padding-left: 15px;
-  -webkit-transition: ease-in-out;
-  transition: ease-in-out;
+  padding: 10px;
+  border-radius: 5px;
+}
+.main_menu a{
+  color: #FFFFFF;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
-  -webkit-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: .2s;
-          transition-duration: .2s;
-  -webkit-transition-delay: .05s;
-          transition-delay: .05s;
 }
-.mainMenu li a:hover {
+.main_menu div:hover{
   background: #2FC5FF;
+  border-radius: 5px;
 }
-
-/*********** Design Menu End ***********/
+/*********** New Index Design End ***********/
 
 /*Table Start*/
 table{
