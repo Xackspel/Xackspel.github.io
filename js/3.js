@@ -1,1 +1,0 @@
-alert("Message #3");
