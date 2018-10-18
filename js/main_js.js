@@ -1,5 +1,6 @@
-"use strict";
-var admin, name;
-name = "Mike";
-admin = name;
-alert(admin);
+function calcSq(){
+    var inputNumber, squareNumber;
+    inputNumber = document.getElementById("input").value;
+    squareNumber = inputNumber*inputNumber;
+    alert(squareNumber);
+}
