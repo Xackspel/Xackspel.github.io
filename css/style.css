@@ -270,3 +270,103 @@ tbody:hover {
   background: rgb(141, 2, 255);
 }
 /*********** CSS Hover Effects End ***********/
+
+/*********** CSS Hover Logo Icons Effect***********/
+#AweFont{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#AweFont ul{
+  position: relative;
+  margin: 0;
+  padding 0;
+  display: -webkit-box;
+  padding 0;
+  display: -ms-flexbox;
+  padding 0;
+  display: flex;
+}
+#AweFont ul li{
+  position: relative;
+  list-style: none;
+  width: 120px;
+  height: 120px;
+  margin: 0 50px;
+  -webkit-transform: rotate(-30deg) skew(25deg);
+          transform: rotate(-30deg) skew(25deg);
+  background: #ccc;
+}
+#AweFont ul li span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  font-size: 60px;
+}
+#AweFont ul li:hover span:nth-child(5){
+  -webkit-transform: translate(40px, -40px);
+          transform: translate(40px, -40px);
+  opacity: 1;
+}
+#AweFont ul li:hover span:nth-child(4){
+  -webkit-transform: translate(30px, -30px);
+          transform: translate(30px, -30px);
+  opacity: 0.8;
+}
+#AweFont ul li:hover span:nth-child(3){
+  -webkit-transform: translate(20px, -20px);
+          transform: translate(20px, -20px);
+  opacity: 0.6;
+}
+#AweFont ul li:hover span:nth-child(2){
+  -webkit-transform: translate(10px, -10px);
+          transform: translate(10px, -10px);
+  opacity: 0.4;
+}
+#AweFont ul li:hover span:nth-child(1){
+  -webkit-transform: translate(10px, -10px);
+          transform: translate(10px, -10px);
+  opacity: 0.2;
+}
+
+#AweFont ul li:nth-child(1) span{
+  background: rgb(255, 115, 0);
+}
+#AweFont ul li:nth-child(2) span{
+  background: rgb(0, 89, 255);
+}
+#AweFont ul li:nth-child(3) span{
+  background: rgb(241, 170, 16);
+}
+#AweFont ul li:nth-child(4) span{
+  background: rgb(24, 23, 23);
+}
+#AweFont ul li:nth-child(5) span{
+  background: rgb(80, 80, 80);
+}
+/*********** CSS Hover Logo Icons Effect*******:hover****/
