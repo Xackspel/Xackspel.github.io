@@ -217,3 +217,56 @@ tbody:hover {
   cursor: pointer;
 }
 /*********** Something Beautiful 2 End ***********/
+
+/*********** CSS Hover Effects Start ***********/
+#CSS_H_E{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(211, 212, 211);
+  overflow: hidden;
+}
+#CSS_H_E #box{
+  width: 25px;
+  height: 25px;
+  float: left;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  border: 1px solid;
+  border-color: #bbb;
+}
+#CSS_H_E #box:hover{
+  background: #000;
+  -webkit-transition: 0s ease-in-out;
+  transition: 0s ease-in-out;
+}
+#CSS_H_E #box:hover:nth-child(9n + 1){
+  background: rgb(0, 216, 107);
+}
+#CSS_H_E #box:hover:nth-child(9n + 2){
+  background: rgb(72, 255, 0);
+}
+#CSS_H_E #box:hover:nth-child(9n + 3){
+  background: rgb(216, 0, 180);
+}
+#CSS_H_E #box:hover:nth-child(9n + 4){
+  background: rgb(22, 7, 104);
+}
+#CSS_H_E #box:hover:nth-child(9n + 5){
+  background: rgb(241, 238, 10);
+}
+#CSS_H_E #box:hover:nth-child(9n + 6){
+  background: rgb(250, 65, 8);
+}
+#CSS_H_E #box:hover:nth-child(9n + 7){
+  background: rgb(255, 4, 4);
+}
+#CSS_H_E #box:hover:nth-child(9n + 8){
+  background: rgb(3, 242, 250);
+}
+#CSS_H_E #box:hover:nth-child(9n + 9){
+  background: rgb(141, 2, 255);
+}
+/*********** CSS Hover Effects End ***********/
