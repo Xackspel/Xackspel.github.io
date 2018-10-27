@@ -271,7 +271,7 @@ tbody:hover {
 }
 /*********** CSS Hover Effects End ***********/
 
-/*********** CSS Hover Logo Icons Effect***********/
+/*********** CSS Hover Logo Icons Effect Start***********/
 #AweFont{
   margin: 0;
   padding: 0;
@@ -369,4 +369,4 @@ tbody:hover {
 #AweFont ul li:nth-child(5) span{
   background: rgb(80, 80, 80);
 }
-/*********** CSS Hover Logo Icons Effect*******:hover****/
+/*********** CSS Hover Logo Icons Effect End ***********/
