@@ -3,7 +3,7 @@ function clickBut(){
     i = 0;
     p = document.getElementById("ModP");
     while(i<10){
-        p.insertAdjacentHTML("afterend"," New Word");
+        p.insertAdjacentHTML("afterbegin", i);
         i++
     }
 }
