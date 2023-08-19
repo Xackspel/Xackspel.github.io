@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <title>Xackspel</title>
     </head>
-    <body>
+    <body style="background-image: url('/img/white_brick_wall.png');">
         <header>
             <div class="container-fluid shadow-lg" id="navigation">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -26,10 +26,10 @@
                             <a class="nav-link" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" role="tab" aria-controls="about" aria-selected="true">About</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" role="tab" aria-controls="messages" aria-selected="true">Messages</a>
+                            <a class="nav-link" id="cv-tab" data-bs-toggle="tab" data-bs-target="#cv" role="tab" aria-controls="cv" aria-selected="true">CV</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" role="tab" aria-controls="settings" aria-selected="true">settings</a>
+                            <a class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" role="tab" aria-controls="contact" aria-selected="true">Contact</a>
                           </li>
                         </ul>
                         <form class="d-flex" role="search">
@@ -42,145 +42,107 @@
             </div>
         </header>
         <main>
-            <div class="container-fluid">
-                <div class="container-fluid tab-content">
-                    <div class="tab-pane shadow-lg active" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                      <div class="container px-4 py-5" id="icon-grid">
-                        <h2 class="pb-2 border-bottom">Welcome to my webpage!</h2>
-                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-                          <div class="col d-flex align-items-start">
-                            <i class="bi-bootstrap text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                            <div>
-                              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Bootstrap v5.3</h3>
-                              <p>This is my first framework I have learned.</p>
-                            </div>
+          <br>
+          <div class="container-fluid">
+            <div class="container-fluid tab-content">
+              <div class="tab-pane shadow-lg active" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                <div class="container px-4 py-5">
+                  <h2 class="pb-2 border-bottom font-monospace">Welcome!</h2>
+                  <p class="font-monospace">
+                    &nbsp;
+                    I'm web developer, and best with PHP, JavaScript, CSS, HTML. Also I'm familiar with Python.
+                  </p>
+                  <p class="font-monospace">
+                    &nbsp;
+                    This is my showroom =). Yes, it's sounds strange but this website showing my experience and skills. Here I'm showing personal achivements, portfolio and curriculum vitae. 
+                  </p>
+                  <p class="font-monospace">
+                    &nbsp;
+                    Web development help make our dreams a true.
+                    Programming is a way to improve process, increase speed, support users and make this world a little bit better. 
+                    Also helping us support connections with other people and give them a chance make thier rock as a wall with their dreams. 
+                    From beggining people drawing on the walls of rocks, and I'm think it's was a first websites).
+                  </p>
+                </div>
+              </div>
+              <div class="tab-pane shadow-lg" id="about" role="tabpanel" aria-labelledby="about-tab" tabindex="0">
+                  <div class="container px-4 py-5" id="icon-grid">
+                      <h2 class="pb-2 border-bottom">I'm fimilar wtith next technologies:</h2>
+                      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                        <div class="col d-flex align-items-start">
+                          <i class="bi-bootstrap text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
+                          <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Bootstrap v5.3</h3>
+                            <p>This is my first framework I have learned.</p>
                           </div>
-                          <div class="col d-flex align-items-start">
-                            <i class="bi-filetype-js text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                            <div>
-                              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">JavaScript</h3>
-                              <p>Powerful program language, which extend website possibility.</p>
-                            </div>
+                        </div>
+                        <div class="col d-flex align-items-start">
+                          <i class="bi-filetype-js text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
+                          <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">JavaScript</h3>
+                            <p>Powerful program language, which extend website possibility.</p>
                           </div>
-                          <div class="col d-flex align-items-start">
-                            <i class="bi-filetype-css text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                            <div>
-                              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CSS 3.0</h3>
-                              <p>Design and beauty.</p>
-                            </div>
+                        </div>
+                        <div class="col d-flex align-items-start">
+                          <i class="bi-filetype-css text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
+                          <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CSS 3.0</h3>
+                            <p>Design and beauty.</p>
                           </div>
-                          <div class="col d-flex align-items-start">
-                            <i class="bi-filetype-html text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                            <div>
-                              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML 5</h3>
-                              <p>Hyper Text Markup Language.</p>
-                            </div>
+                        </div>
+                        <div class="col d-flex align-items-start">
+                          <i class="bi-filetype-html text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
+                          <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML 5</h3>
+                            <p>Hyper Text Markup Language.</p>
                           </div>
-                          <div class="col d-flex align-items-start">
-                            <i class="bi-git text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                            <div>
-                              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">GIT</h3>
-                              <p>Version control system.</p>
-                            </div>
+                        </div>
+                        <div class="col d-flex align-items-start">
+                          <i class="bi-git text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
+                          <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">GIT</h3>
+                            <p>Version control system.</p>
                           </div>
-                          <div class="col d-flex align-items-start">
-                            <i class="bi-github text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                            <div>
-                              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">GitHub</h3>
-                              <p>One of the most popular service for developing software. And host it.</p>
-                            </div>
+                        </div>
+                        <div class="col d-flex align-items-start">
+                          <i class="bi-github text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
+                          <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">GitHub</h3>
+                            <p>One of the most popular service for developing software. And host it.</p>
                           </div>
-                          <div class="col d-flex align-items-start">
-                            <i class="bi-ubuntu text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                            <div>
-                              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Linux: Ubuntu v22.04</h3>
-                              <p>Open source operation system.</p>
-                            </div>
+                        </div>
+                        <div class="col d-flex align-items-start">
+                          <i class="bi-ubuntu text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
+                          <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Linux: Ubuntu v22.04</h3>
+                            <p>Open source operation system.</p>
                           </div>
-                          <div class="col d-flex align-items-start">
-                            <i class="bi-server text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                            <div>
-                              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">LAMP webserver</h3>
-                              <p>Linux Apache MySQL PHP webserver on local laptop.</p>
-                            </div>
+                        </div>
+                        <div class="col d-flex align-items-start">
+                          <i class="bi-server text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
+                          <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">LAMP webserver</h3>
+                            <p>Linux Apache MySQL PHP webserver on local laptop.</p>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="tab-pane shadow-lg" id="about" role="tabpanel" aria-labelledby="about-tab" tabindex="0">
-                        <div class="container px-4 py-5" id="icon-grid">
-                            <h2 class="pb-2 border-bottom">I'm fimilar wtith next technologies:</h2>
-                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-                              <div class="col d-flex align-items-start">
-                                <i class="bi-bootstrap text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                                <div>
-                                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Bootstrap v5.3</h3>
-                                  <p>This is my first framework I have learned.</p>
-                                </div>
-                              </div>
-                              <div class="col d-flex align-items-start">
-                                <i class="bi-filetype-js text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                                <div>
-                                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">JavaScript</h3>
-                                  <p>Powerful program language, which extend website possibility.</p>
-                                </div>
-                              </div>
-                              <div class="col d-flex align-items-start">
-                                <i class="bi-filetype-css text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                                <div>
-                                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CSS 3.0</h3>
-                                  <p>Design and beauty.</p>
-                                </div>
-                              </div>
-                              <div class="col d-flex align-items-start">
-                                <i class="bi-filetype-html text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                                <div>
-                                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML 5</h3>
-                                  <p>Hyper Text Markup Language.</p>
-                                </div>
-                              </div>
-                              <div class="col d-flex align-items-start">
-                                <i class="bi-git text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                                <div>
-                                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">GIT</h3>
-                                  <p>Version control system.</p>
-                                </div>
-                              </div>
-                              <div class="col d-flex align-items-start">
-                                <i class="bi-github text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                                <div>
-                                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">GitHub</h3>
-                                  <p>One of the most popular service for developing software. And host it.</p>
-                                </div>
-                              </div>
-                              <div class="col d-flex align-items-start">
-                                <i class="bi-ubuntu text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                                <div>
-                                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Linux: Ubuntu v22.04</h3>
-                                  <p>Open source operation system.</p>
-                                </div>
-                              </div>
-                              <div class="col d-flex align-items-start">
-                                <i class="bi-server text-body-secondary flex-shrink-0 me-3" style="font-size: 2rem; color: cornflowerblue;"></i>
-                                <div>
-                                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">LAMP webserver</h3>
-                                  <p>Linux Apache MySQL PHP webserver on local laptop.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="tab-pane shadow-lg" id="messages" role="tabpanel" aria-labelledby="messages-tab" tabindex="0">
-                        Messages
-                    </div>
-                    <div class="tab-pane shadow-lg" id="settings" role="tabpanel" aria-labelledby="settings-tab" tabindex="0">
-                        Settings
-                    </div>
+              </div>
+              <div class="tab-pane shadow-lg" id="cv" role="tabpanel" aria-labelledby="cv-tab" tabindex="0">
+                <div class="container px-4 py-5" id="icon-grid">
+                  <h2 class="pb-2 border-bottom">CV Page in development</h2>
                 </div>
+              </div>
+              <div class="tab-pane shadow-lg" id="contact" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                <div class="container px-4 py-5" id="icon-grid">
+                  <h2 class="pb-2 border-bottom">Contact Page in development</h2>
+                </div>                    
+              </div>
             </div>
+          </div>
         </main>
         <footer class="fixed-bottom">
-            <p class="text-center">2023</p>
+            <p class="text-center font-monospace">Xackspel | GitHub pages | 2023</p>
         </footer>
     </body>
 </html>
