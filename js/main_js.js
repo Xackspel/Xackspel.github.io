@@ -8,3 +8,7 @@ function clickBut(){
     }
 }
 
+let timestamp = Date.now();
+let year = new Date(timestamp).getFullYear();
+console.log(year);
+console.log('test');
